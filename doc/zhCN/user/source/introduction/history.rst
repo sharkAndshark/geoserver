@@ -1,4 +1,4 @@
-.. _历史:
+.. _history:
 
 历史
 =======
@@ -14,3 +14,4 @@
 　　随后GeoServer的生态开始繁荣起来。Refractions Research创建了PostGIS,一个免费的，开放的空间数据库。MetaCarta创建了OpenLayers，一个开源的，基于浏览器的地图查看工具。这些工具一起增强了GeoServer的功能。
 
 　　当下，GeoServer支持多种空间数据格式的读写与输出。在GeoServer诞生后的的第二十年，GeoServer正在继续它的使命，让所有人都能更容易地访问空间数据。
+
