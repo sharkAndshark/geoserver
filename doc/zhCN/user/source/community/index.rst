@@ -1,4 +1,4 @@
 .. _community:
 
-Community modules
+社区模块
 =================

@@ -1,4 +1,4 @@
 .. _extensions:
 
-extensions
+扩展
 =================

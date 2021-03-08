@@ -1,4 +1,4 @@
 .. _getting_started:
 
-getting started
+快速上手
 =================

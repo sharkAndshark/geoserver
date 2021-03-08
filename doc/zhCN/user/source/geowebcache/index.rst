@@ -1,4 +1,4 @@
 .. _gwc:
 
-geowebcache
+GeoWebCache
 =================

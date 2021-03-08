@@ -2,60 +2,60 @@
 GeoServer 用户手册
 #####################
 
-GeoServer is an open source software server written in Java that allows users to share and edit geospatial data. Designed for interoperability, it publishes data from any major spatial data source using open standards.
+　　GeoServer是一款用来采用Java编写的，允许用户分享与编辑地理空间数据的开源软件。本软件设计时充分考虑了互操作性，其支持使用开放标准对多数主要空间数据源进行发布。
 
-This User Manual is a comprehensive guide to all aspects of using GeoServer. Whether you are a novice or a veteran user of this software, we hope that this documentation will be a helpful reference.
+　　本手册囊括了使用GeoServer的方方面面。无论您是使用本软件的新人还是资深用户，我们都希望您能从本手册中有所获益。
 
 :ref:`introduction`
-  Learn about GeoServer.
+  了解GeoServer。
 
 :ref:`installation`
-  Install GeoServer for your platform.
+  安装GeoServer。
 
 :ref:`getting_started`
-  Tutorials to help you get started with GeoServer.
+  快速上手。
 
 :ref:`web_admin`
-  Navigate the GeoServer graphical interface.
+  使用图形界面管理GeoServer。
 
 :ref:`data`
-  Load and publish data from a variety of sources.
+  加载与发布多种来源的数据。
 
 :ref:`styling`
-  Styling and visualization for published layers in GeoServer.
+  设置图层样式与可视化。
 
 :ref:`services`
-  OGC services, the primary method of publishing data in GeoServer.
+  使用OGC标准发布数据服务。
 
 :ref:`filtering`
-  Filter your requests and responses to increase efficiency.
+  过滤您的请求与响应以增强功能。
 
 :ref:`config`
-  Configuration options for GeoServer administrators.
+  GeoServer的管理配置项。
 
 :ref:`datadir`
-  Settings and configuration files for GeoServer.
+  管理您的数据目录。
 
 :ref:`production`
-  Best practices for using GeoServer.
+  在生产环境中使用GeoServer。
 
 :ref:`rest`
-  Interact programmatically with GeoServer without using the graphical interface.
+  使用REST接口与GeoServer交互。
 
 :ref:`security`
-  Secure and restrict access to data and services.
+  保护您的数据，对访问进行限制。
 
 :ref:`gwc`
-  Accelerate your GeoServer with tile caching.
+  使用瓦片缓存加速您的GeoServer。
 
 :ref:`extensions`
-  Add extra functionality to GeoServer with extensions.
+  使用扩展为GeoServer添加额外功能。
 
 :ref:`community`
-  Add cutting-edge functionality to GeoServer with community modules.
+  使用社区模块为GeoServer添加先进功能。
 
 :ref:`tutorials`
-  Other tips and tricks for getting the most out of your GeoServer instance.
+  充分利用GeoServer的一些小技巧与帮助。
 
 .. toctree::
    :hidden:
