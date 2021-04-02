@@ -76,7 +76,7 @@ paths:
          #   application/json:
          #     schema:
          #       type: string
-        "401":
+        "409":
           description: Unable to add workspace as it already exists
 
   /workspaces/{workspace}:
