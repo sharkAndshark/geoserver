@@ -170,6 +170,10 @@ public class WorkspaceTest extends CatalogRESTTestSupport {
         // check corresponding namespace creation
         NamespaceInfo ns = getCatalog().getNamespaceByPrefix("foo");
         assertNotNull(ns);
+        
+        MockHttpServletResponse conflictResponse = postAsServletResponse(RestBaseController.ROOT_PATH + "/workspaces",
+                        xml, "text/xml");
+        assertEquals(409, conflictResponse.getStatus());
 
         removeWorkspace("foo");
     }
@@ -198,6 +202,11 @@ public class WorkspaceTest extends CatalogRESTTestSupport {
         WorkspaceInfo ws = getCatalog().getWorkspaceByName("foo");
         assertNotNull(ws);
         assertNotNull(ws.getDateCreated());
+
+        MockHttpServletResponse conflictResponse =
+                postAsServletResponse(
+                        RestBaseController.ROOT_PATH + "/workspaces", json, "text/json");
+        assertEquals(409, conflictResponse.getStatus());
     }
 
     @Test
