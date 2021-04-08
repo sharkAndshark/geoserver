@@ -171,7 +171,8 @@ public class WorkspaceTest extends CatalogRESTTestSupport {
         NamespaceInfo ns = getCatalog().getNamespaceByPrefix("foo");
         assertNotNull(ns);
         
-        MockHttpServletResponse conflictResponse = postAsServletResponse(RestBaseController.ROOT_PATH + "/workspaces",
+        MockHttpServletResponse conflictResponse = 
+                postAsServletResponse(RestBaseController.ROOT_PATH + "/workspaces",
                         xml, "text/xml");
         assertEquals(409, conflictResponse.getStatus());
 
