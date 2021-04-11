@@ -97,10 +97,8 @@
             <descriptor>release/ext-imagemosaic-jdbc.xml</descriptor>
             <descriptor>release/ext-smart-data-loader.xml</descriptor>
             <descriptor>release/ext-cov-json.xml</descriptor>
-            <!-- As per our discussion on list, the module does not work, leaving it for eventual salvage,
-               but not providing an assembly. This one has been left for those interested
-               <descriptor>release/ext-importer-bdb.xml</descriptor>
-          -->
+            <descriptor>release/ext-schemaless-features.xml</descriptor>
+            <descriptor>release/ext-web-service-auth.xml</descriptor>
           </descriptors>
         </configuration>
       </plugin>
@@ -271,6 +269,8 @@
         <module>cov-json</module>
         <module>smart-data-loader</module>
         <module>rest-openapi</module>
+        <module>schemaless-features</module>
+        <module>web-service-auth</module>
       </modules>
     </profile>
     <profile>
@@ -721,6 +721,18 @@
       <id>rest-openapi</id>
       <modules>
         <module>rest-openapi</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>schemaless-features</id>
+      <modules>
+        <module>schemaless-features</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>web-service-auth</id>
+      <modules>
+        <module>web-service-auth</module>
       </modules>
     </profile>
   </profiles>
